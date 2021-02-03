@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: ./app/libs/libBioMini_v20.aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/463f9bdeddddb7209504001984af0ecd/libBioMini_v20/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/463f9bdeddddb7209504001984af0ecd/libBioMini_v20/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/463f9bdeddddb7209504001984af0ecd/libBioMini_v20/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

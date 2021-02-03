@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/basic_firstName_layout"
+            android:hint="@string/basic_first_name"
+            app:counterEnabled="true"
+            android:layout_marginTop="5dp"
+            app:counterMaxLength="15"
+            app:errorEnabled="true"
+            app:startIconContentDescription="@string/mobile_phone"
+            app:startIconDrawable="@drawable/ic_perm_identity_black_24dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:id="@+id/basic_firstName"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/basic_lastName_layout"
+            android:hint="@string/basic_lastname_hint"
+            app:counterEnabled="true"
+            app:errorEnabled="true"
+            android:layout_marginTop="5dp"
+            app:counterMaxLength="15"
+            app:startIconContentDescription="@string/basic_last_name"
+            app:startIconDrawable="@drawable/ic_perm_identity_black_24dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:id="@+id/basic_lastName"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/basic_phone_layout"
+            android:hint="@string/phone_number"
+            app:counterEnabled="true"
+            app:errorEnabled="true"
+            android:layout_marginTop="5dp"
+            app:counterMaxLength="10"
+            app:startIconContentDescription="@string/mobile_phone"
+            app:startIconDrawable="@drawable/ic_local_phone_black_24dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:id="@+id/basic_telephone"/>
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="end"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            style="@style/AppTheme.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/next"
+            android:id="@+id/basic_next"/>
+    </LinearLayout>
+
+</LinearLayout>

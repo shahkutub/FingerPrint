@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFA500</color>
+    <color name="colorPrimaryDark">#FF9800</color>
+    <color name="colorAccent">#000</color>
+    <color name="white">#FFF</color>
+    <color name="grey">#bfbfbf</color>
+    <color name="colorLight">#cff5bc</color>
+    <color name="colorRed">#e70004</color>
+    <color name="logBackgroundBlack">#000000</color>
+    <color name="colorBackgroundCapturing">#FF5722</color>
+    <color name="colorBackgroundError">#B90407</color>
+    <color name="colorBackgroundSuccess">#54F009</color>
+    <color name="colorBackgroundNormal">#CDDC39</color>
+    <color name="colorBackgroundConnected">#3F51B5</color>
+</resources>
